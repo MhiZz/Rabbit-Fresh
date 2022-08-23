@@ -1,0 +1,13 @@
+1. 新建文件夹 xtx-pc-client 在vsc打开
+   实际开发中 项目文件夹不建议使用中文
+   所有项目相关文件都保存在xtx-pc-client目录中
+2.复制favicon.ico 到 xtx-pc-client 目录
+   一般习惯将ico图标放到项目根目录
+3.复制images 和uploads 目录到xtx-pc-client
+   images : 存放网站 固定使用 的图片素材 如 logo 样式修饰图片等
+   upload : 存放网站 非固定使用 的图片素材 如商品图片、宣传图片等
+4.新建 index.html 在根目录
+5.新建 css 文件夹保存网站样式 ，并新建以下css文件 :
+   base.css 基础公共样式
+   common.css 该网站中多个网页相同模块的重复样式 ， 如头部、底部
+   index.css 首页样式
