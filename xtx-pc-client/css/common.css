@@ -1,0 +1,94 @@
+.wrapper {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.shortcut {
+  height: 52px;
+  background-color: #333;
+}
+
+.shortcut .wrapper {
+  height: 52px;
+}
+
+.shortcut .wrapper ul {
+  float: right;
+}
+
+.shortcut .wrapper li {
+  float: left;
+  line-height: 52px;
+}
+
+.shortcut .wrapper a {
+  padding: 0 16px;
+  border-right: 1px solid #666;
+  font-size: 14px;
+  color: #dcdcdc;
+}
+
+.shortcut .wrapper a span {
+  display: inline-block;
+  margin-right: 8px;
+  width: 11px;
+  height: 15px;
+  background-image: url(../images/sprites.png);
+  background-position: -160px -70px;
+  vertical-align: middle;
+}
+
+/* 头部 */
+.header {
+  margin: 30px auto;
+  height: 70px;
+}
+
+.logo {
+  float: left;
+  width: 207px;
+  height: 70px;
+  margin-right: 40px;
+}
+
+/* logo搜索引擎优化 */
+.logo h1 {
+  width: 207px;
+  height: 70px;
+}
+
+.logo h1 a {
+  display: block;
+  width: 207px;
+  height: 70px;
+  background-image: url(../images/logo.png);
+  background-size: contain;
+  /* 让1里面的字看不见 */
+  font-size: 0;
+
+}
+
+.nav {
+  float: left;
+  height: 70px;
+}
+
+.nav li {
+  float: left;
+}
+
+.search {
+  float: left;
+  margin-left: 34px;
+  width: 172px;
+  height: 30px;
+  background-color: green;
+}
+
+.shoppingcar {
+  float: left;
+  margin-left: 15px;
+  width: 23px;
+  height: 23px;
+  background-color: skyblue;
+}
